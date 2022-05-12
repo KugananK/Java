@@ -3,7 +3,9 @@ package com.qa.main;
 import com.qa.exercise.*;
 import com.qa.iteration.*;
 import com.qa.Objects.BankDetails;
+import com.qa.Objects.Eagles;
 import com.qa.Objects.Games;
+import com.qa.Objects.Penguins;
 import com.qa.QAffe.*;
 
 public class Main {
@@ -69,10 +71,13 @@ public class Main {
 //		System.out.println(calc.subSum(7, 2));
 //		System.out.println(calc.price);
 //		System.out.println(BasicCalculator.calcColour);
-		BankDetails user1 = new BankDetails(93.5f, "07089650", "EMEB32", "32BEME!");
-		System.out.println(user1.getBalance());
-		user1.setBalance(190f);
-		System.out.println(user1.getBalance());
+//		BankDetails user1 = new BankDetails(93.5f, "07089650", "EMEB32", "32BEME!");
+//		System.out.println(user1.getBalance());
+//		user1.setBalance(190f);
+//		System.out.println(user1.getBalance());
+		Penguins Pingu = new Penguins("Black and White", "Fish", 30, 100);
+		Eagles Eddie = new Eagles("Brown", "Rodents and lizards", 50, 95);
+		System.out.println(Pingu.layEgg);
 	}
 	}
 
