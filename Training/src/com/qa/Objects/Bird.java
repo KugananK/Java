@@ -1,16 +1,9 @@
 package com.qa.Objects;
 
-public class Bird {
+public abstract class Bird {
 	private String colour;
 	private String diet;
 	private int wingSpan;
-	
-	public String layEgg() {
-		return "Lays eggs";
-	}
-	public String walk() {
-		return "Walks around";
-	}
 	
 	public Bird(String colour, String diet, int wingSpan) {
 		super();
@@ -18,6 +11,9 @@ public class Bird {
 		this.diet = diet;
 		this.wingSpan = wingSpan;
 	}
+	public abstract String layEgg();
+	public abstract String walk();
+	
 	public String getColour() {
 		return colour;
 	}

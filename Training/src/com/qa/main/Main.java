@@ -8,8 +8,8 @@ import com.qa.Objects.Games;
 import com.qa.Objects.Penguins;
 import com.qa.QAffe.*;
 
-public class Main {
-	public static void main(String[] args) {
+//public class Main {
+//	public static void main(String[] args) {
 //		System.out.println(BasicCalculator.addSum(8, 90, 3));
 //		System.out.println(BasicCalculator.subSum(15, 7));
 //		System.out.println(BasicCalculator.mulSum(2, 7));
@@ -75,9 +75,10 @@ public class Main {
 //		System.out.println(user1.getBalance());
 //		user1.setBalance(190f);
 //		System.out.println(user1.getBalance());
-		Penguins Pingu = new Penguins("Black and White", "Fish", 30, 100);
-		Eagles Eddie = new Eagles("Brown", "Rodents and lizards", 50, 95);
-		System.out.println(Pingu.layEgg);
-	}
-	}
+//		Penguins Pingu = new Penguins("Black and White", "Fish", 30, 100);
+//		Eagles Eddie = new Eagles("Brown", "Rodents and lizards", 50, 95);
+//		System.out.println(Pingu.layEgg());
+//		System.out.println(Eddie.walk());
+//	}
+//	}
 
