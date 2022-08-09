@@ -7,7 +7,8 @@ public class BasicCalculator {
 		super();
 		this.price = price;
 	}
-	public int addSum(int x, int y, int z) {
+	
+	public int add(int x, int y, int z) {
 		int result = 0;
 				result = x + y + z;
 				return result;
